@@ -6,9 +6,9 @@ const displayFoundHandler = () => {
   console.log('-- action: display found --');
   console.log('found', typeof found, '\n', found);
 
-  if (_) {
+  if (found === false) {
     alert('no found value');
   } else {
-    alert('found: \n' + found);
+    alert('found value: \n' + found);
   }
 };

@@ -8,8 +8,10 @@
  */
 const isItThere = (arrOfStrings, toFind) => {
   let exists = false;
-  for (let _ of _) {
-
+  for (let string of arrOfStrings) {
+    if (toFind === string) {
+      exists = true;
+    }
   }
   return exists;
 };
@@ -80,7 +82,7 @@ const findValueHandler = () => {
     alert(`did not find: \n${toFind}`);
     found = null;
     return;
-  }
+  } 
 
   found = toFind;
 
